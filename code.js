@@ -1,0 +1,1 @@
+window.snake.toggle_death = function() {if(document.getElementsByClassName("zsInrf")[0].style.opacity==0){document.getElementsByClassName("zsInrf")[0].style="opacity:1;visibility:visible;";}else if(document.getElementsByClassName("zsInrf")[0].style.opacity){document.getElementsByClassName("zsInrf")[0].style="opacity:0;visibility:hidden;";};};window.snake.toggle_death();
